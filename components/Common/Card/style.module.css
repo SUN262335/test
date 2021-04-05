@@ -1,0 +1,60 @@
+.card_container {
+    width: '100%';
+    margin-bottom: 50px;
+}
+.img_card{
+    width: 100%;
+}
+.btn_add{
+    width: 100% !important;
+    background-color: #000 !important;
+    font-family: Archivo !important;
+    font-size: 23px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 25px !important;
+    letter-spacing: 0.07em !important;
+    text-align: center !important;
+    color: #fff !important;
+}
+.label1{
+    font-family: Archivo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #656565;
+}
+.label2{
+    font-family: Archivo;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    color: #000;
+}
+.label3{
+    font-family: Archivo;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #656565;
+}
+.seller_container{
+    width: 130px;
+    height: 30px;
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+}
+@media only screen and (max-width: 450px) {
+}

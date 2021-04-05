@@ -1,0 +1,229 @@
+.main_banner {
+    height: 100vh;
+    background-image: url(../../images/assets/about_bg.png);
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Montserrat';
+    background-repeat: no-repeat;
+}
+
+.headerContainer h1 {
+    color: #ffffff;
+    font-family: 'Montserrat ExtraBold';
+    font-size: 38px;
+}
+
+.headerContainer h5 {
+    color: #ffffff;
+    font-family: 'Montserrat ExtraBold';
+    font-size: 24px;
+}
+
+.headerContainer p {
+    color: #ffffff;
+    font-family: 'Montserrat Light';
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.overviewContainer {
+    background-color: #262626;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.li_container {
+    padding-left: 20px;
+}
+
+.acknowledgementsContainer {
+    /* height: 100%; */
+    background-image: url(../../images/assets/acknowledgements.png);
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Montserrat';
+    background-repeat: no-repeat;
+}
+
+.acknowledgements_effect {
+    width: 100%;
+    height: 155vh;
+    position: absolute;
+    opacity: 0.8;
+    background-color: #000;
+    z-index: -1;
+}
+
+.readershipContainer {
+    padding-bottom: 21rem;
+}
+
+.acknowledgementsContainer h5, .readershipContainer h7, .readershipContainer h1, .readershipContainer h5, .readershipContainer h4, .readershipContainer h7 {
+    text-align: left;
+}
+
+.readershipContainer h1 {
+    font-size: 60px;
+    font-family: 'Montserrat Light' !important;
+    line-height: 72px;
+}
+
+.readershipContainer h5 {
+    font-size: 24px;
+    font-family: 'Montserrat Bold' !important;
+    line-height: 28px;
+}
+
+.acknowledgementsItemcontainer {
+    padding-bottom: 5rem;
+    align-items: center;
+}
+
+.acknowledgementsItemcontainer h5 {
+    font-size: 37px;
+    font-family: 'Montserrat Light' !important;
+}
+
+.readershipContainer {
+    background-color: #262626;
+}
+
+.readership_section {
+    margin-bottom: 7.5rem;
+}
+
+.readership_section2 {
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.readership_section2 h6 {
+    font-size: 20px;
+    font-family: 'Montserrat Light' !important;
+    line-height: 24px;
+}
+
+.readershop_section2_title {
+    margin-bottom: 2rem;
+}
+
+.readership_card_item_container {
+    padding: 1.5rem;
+}
+
+.readership_card_item_container h3 {
+    font-size: 30px;
+    font-family: 'Montserrat' !important;
+    line-height: 36px;
+    margin-bottom: 2rem;
+}
+
+.readership_card_item_container h4 {
+    font-size: 24px;
+    font-family: 'Montserrat' !important;
+    font-weight: bold;
+    line-height: 28.8px;
+    margin-bottom: 45px;
+}
+
+.readership_card_item_container h6 {
+    font-size: 16px;
+    font-family: 'Avenir Light' !important;
+    line-height: 19px;
+}
+
+.readership_card_item_img {
+    border-radius: 100px;
+    width: 150px;
+}
+
+.readership_card_img_container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 7.5rem;
+}
+
+.readership_card_item_container h5 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.about_overview_h6 {
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Montserrat Light' !important;
+    line-height: 19px;
+}
+
+.funfact h3 {
+    font-family: 'Montserrat Black' !important;
+    font-size: 50px;
+}
+
+.funfact h4 {
+    font-family: 'Montserrat Light' !important;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.readership_card_img_containers {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+@media only screen and (max-width: 768px) {
+    .headerContainer p {
+        text-align: center;
+    }
+    .headerContainer h1 {
+        margin-bottom: 3rem;
+        margin-top: 4rem;
+        text-align: center;
+    }
+    .headerContainer h5 {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .about_overview_h6 {
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+    }
+    .funfact h3 {
+        font-size: 43px;
+    }
+    .funfact h4 {
+        font-size: 20.75px;
+    }
+    .acknowledgementsItemcontainer h5 {
+        font-size: 26px;
+        text-align: center;
+    }
+    .readershipContainer h1 {
+        font-size: 50px;
+    }
+    .readershipContainer h5 {
+        font-size: 18px;
+    }
+    .readership_section2 h6 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .readershipContainer h1, .readershipContainer h3, .readershipContainer h4, .readershipContainer h5, .readershipContainer h6 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .acknowledgementsItemcontainer img {
+        margin-bottom: 3rem;
+    }
+    .readership_card_img_containers {
+        padding: 0;
+    }
+    .readership_card_img_container, .readership_section img, .readership_section {
+        margin-bottom: 4.5rem;
+    }
+    .readership_section h1 {
+        margin-bottom: 3.5rem;
+    }
+}
