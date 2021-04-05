@@ -53,7 +53,6 @@ const Navbar = (props) => {
 
     const handleViewCartState = () => {
         document.getElementById('btn_cartDrawer').click();
-        console.log('asldfasdf')
     }
 
     const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';

@@ -100,7 +100,6 @@ function TemporaryDrawer(props) {
 
     const remove = (e) => {
         let localStateCartQuantity = localStorage.getItem('product-quentity');
-        let localStateCartPrice = localStorage.getItem('product-price');
 
         let iddata = localStorage.getItem('product-id');
         let namedata = localStorage.getItem('product-name');
@@ -123,25 +122,23 @@ function TemporaryDrawer(props) {
             }
             localStorage.setItem('product-id', JSON.stringify(obj0));
             localStorage.setItem('product-name', JSON.stringify(obj2));
-            localStorage.getItem('product-quentity', JSON.stringify(obj3));
+            localStorage.setItem('product-quentity', JSON.stringify(obj3));
             localStorage.setItem('product-price', JSON.stringify(obj4));
             localStorage.setItem('product-img', JSON.stringify(obj1));
         }
 
+        quantitydata = localStorage.getItem('product-quentity');
+
         let total_quantity = 0;
-        let total_price = 0;
-        if (quantitydata) {
-            let obj = JSON.parse(quantitydata);
-            let quantityobj = JSON.parse(localStateCartQuantity);
-            let priceobj = JSON.parse(localStateCartPrice);
+        if (localStateCartQuantity) {
+            let obj = JSON.parse(localStateCartQuantity);
             Object.keys(obj).map(function (key) {
                 if (obj[key] !== "A") {
                     total_quantity += obj[key];
-                    total_price += quantityobj[key] * priceobj[key];
                 }
             });
+            console.log('total_quantity--->', total_quantity)
             props.ChangeCount(total_quantity);
-            // props.ChangePerCost(total_price);
         }
     }
 
